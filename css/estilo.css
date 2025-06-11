@@ -1,8 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    height: 100%;
-    width: 100%;
 }
 .cineheader{
   /* background-image: url(/img/pexels-donaldtong94-109669.jpg) center/cover; */
@@ -11,8 +9,6 @@
 }
 .menu{
       display: flex;
-      line-height: 1.5;
-      flex-direction: column;
       background: url(../img/fondocine.jpg) center/cover no-repeat;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       color: rgb(252, 252, 252);
