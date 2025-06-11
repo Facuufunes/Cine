@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.cineheader{
+  /* background-image: url(/img/pexels-donaldtong94-109669.jpg) center/cover; */
+  background-color: rgb(24, 15, 15);
+  display: flex;
+}
+.menu{
+      display: flex;
+      line-height: 55px;
+      background-image: url(/img/pexels-donaldtong94-109669.jpg);
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: rgb(252, 252, 252);
+      /* background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url() center/cover;
+      color: white;
+      /* text-align: center; */
+      height: 100vh;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      text-decoration: underline;
+}
+.america{
+      width: 300px;
+      display: flex;
+
+}
+.peliculas{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.resenaamerica{
+  color: white;
+  display: flex;
+  line-height: 30px;
+  padding: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.mundo{
+        width: 300px;
+        display: flex;
+}
+.mundolugar{
+  background-color: rgb(24, 15, 15);
+  color: rgb(255, 255, 255);
+  display: flex;
+  line-height: 30px;
+  padding: 50px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.cinepuro{
+    text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.sectionmundo{
+    background-color: rgb(24, 15, 15);
+    display: flex;
+      color: white;
+  display: flex;
+  line-height: 30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+footer{
+  background-color: rgb(48, 29, 29);
+  color: white;
+}
+
+.facu{
+  padding: 20px;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 20px;
+  text-align: start;
+}
+.cineend{
+  background-color: rgb(24, 15, 15);
+  display: flex;
+  justify-content: end;
+
+}
+.inicioboton{
+    display: block;
+      width: fit-content;
+      margin: auto;
+      padding: 10px 20px;
+      background-color: #291908;
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;  
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .ultima{
+      display: flex;
+      width: fit-content;
+      margin: auto;
+      padding: 10px 10px;
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;  
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .ultima{
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 60px;
+  text-align: center;
+}
+.facuuu{
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 26px;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
+  background-color: #222;            
+  color: #f1f1f1;                   
+  text-align: center;               
+  padding: 20px 10px;  
+}
