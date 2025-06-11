@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 .cineheader{
   /* background-image: url(/img/pexels-donaldtong94-109669.jpg) center/cover; */
@@ -9,14 +11,16 @@
 }
 .menu{
       display: flex;
-      line-height: 55px;
-      background: url(../img/fondocine.jpg);
+      line-height: 1.5;
+      flex-direction: column;
+      background: url(../img/fondocine.jpg) center/cover no-repeat;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       color: rgb(252, 252, 252);
       /* background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url() center/cover;
       color: white;
       /* text-align: center; */
       height: 100vh;
+      width: 100vw;
       text-align: center;
       justify-content: center;
       align-items: center;
